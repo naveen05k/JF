@@ -59,3 +59,23 @@ ScrollReveal().reveal(".offer__card", {
 const swiper = new Swiper(".swiper", {
   loop: true,
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const browseJob = document.getElementById('browseJob');
+  const jobLink = document.getElementById('jobLink');
+
+    browseJob.addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent default action of the anchor tag
+      goToJobs();
+    });
+
+    function goToJobs() {
+      // Add your logic here. For example, you can redirect to another page.
+      console.log('Job link clicked!');
+      // Uncomment the following line to actually navigate to the jobs page
+      // window.location.href = 'https://www.example.com/jobs';
+    }
+
+    // Simulate a click on the job link
+    jobLink.click();
+});
