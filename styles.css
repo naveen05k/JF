@@ -22,6 +22,14 @@
   padding: 5rem 1rem;
 }
 
+
+.sectionNotify {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0rem 1rem;
+  height: 400px;
+}
+
 .section__header {
   max-width: 900px;
   margin-inline: auto;
@@ -360,7 +368,7 @@ nav {
 }
 
 .explore__card:hover {
-  background-color: var(--primary-color);
+  background-color: #3a3a3b;
 }
 
 .explore__card span {
